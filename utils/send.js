@@ -27,9 +27,7 @@ module.exports = async (bot, toSend, feed) => {
             const userId = subscribe.user_id;
             let text = `<b>${sanitize(feed.feed_title)}</b>`;
             toSend.forEach(function(item) {
-                text += `\n<a href="${item.link.trim()}">${sanitize(
-                    item.title
-                )}</a>`;
+                text += `\n${sanitize(item.title)} ${item.link.trim()}`;
             });
             try {
                 await bot.telegram.sendMessage(userId, text, {
