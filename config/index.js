@@ -1,5 +1,8 @@
 const path = require('path');
 const { version } = require('../package');
+const dotenv = require('dotenv');
+
+dotenv.config();
 
 module.exports = {
     token: process.env.RSSBOT_TOKEN || '',
