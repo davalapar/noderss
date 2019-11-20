@@ -3,6 +3,7 @@ const { version } = require('../package');
 const dotenv = require('dotenv');
 
 dotenv.config();
+console.log(JSON.stringify(process.env, null, 2));
 
 module.exports = {
     token: process.env.RSSBOT_TOKEN || '',
