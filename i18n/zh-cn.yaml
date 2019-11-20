@@ -1,0 +1,49 @@
+FEED_URL_NOT_PARSE: 无法解析URL
+FETCH_ERROR: 抓取错误
+404: 抓取错误 HTTP404 Not Found
+403: 抓取错误 HTTP403 Forbidden
+ALREADY_SUB: 已经订阅过了
+DB_ERROR: SQLite操作出错
+DID_NOT_SUB: 你没有订阅这个feed
+SUB_USAGE: 使用方法： /sub <RSS URL> 支持自动检测 RSS feed
+UNSUB_USAGE: 使用方法： /unsub <RSS URL>
+ADMIN_ONLY: 只有管理员才能操作
+UNSUBTHIS_USAGE: 使用方法：/unsubthis 回复想要退订的 RSS 消息
+SAME_NAME: 有同名的RSS源，请使用/unsub 退订
+PROCESSING: 正在处理请稍候
+SUB_SUCCESS: 成功订阅
+UNSUB_SUCCESS: 成功退订
+NOT_SUB: 没有订阅任何源
+SUB_LIST: 订阅列表
+ERROR_MANY_TIME: 多次抓取失败，建议取消订阅
+OPML_PARSE_ERRO: opml 文件解析失败
+NETWORK_ERROR: 网络错误
+IMPORT_SUCCESS: 成功导入
+FILESYSTEM_ERROR: 读写文件发生错误
+UNSUB_ALL_SUCCESS: 成功退订所有订阅源
+EXPORT: 使用方法： /export 导出订阅源为 opml 格式
+SEND_FILE_IMPORT: 发送 opml 文件导入订阅源
+RSS_USAGE: 使用方法： /rss 输出订阅列表 加 raw 显示链接
+VIEW_ALL_USAGE: 使用方法：/viewall 查看所有订阅和订阅人数 需要在设置中打开，加 `raw`显示链接
+USB_ALL_USAGE: 使用方法： /allunsub 退订所有源
+IMPORT_USAGE: 使用方法： /import 回复这条消息或者直接发（私聊） opml 文档
+WELCOME: 欢迎来到 [NodeRSSBot](https://github.com/fengkx/NodeRSSBot)
+CONFIRM: 是否继续当前操作
+PRIVATE_CHAT_ONLY: 只能在私聊中使用
+ALL_FEED: 所有被订阅的feed
+COMMAND_NOT_ENABLED: 没有启用该命令
+NUMBER_OF_SUBSCRIBER: 订阅人数
+CHANNEL_NOT_FOUND: 找不到该 id 对应频道
+CHANNEL_ADMIN_REQUIRE: 需要将该Bot加入频道管理员并给予对应权限
+YES: 是
+NO: 否
+CANCEL: 取消操作
+PAGE_PRE: 上一页
+PAGE_NEXT: 下一页
+FOUND_FEED_MORE_THAN_ONE: 找到不止一个订阅地址
+FOUND_FEEDS: 找到的订阅地址
+FEED_CHANGE_TO: 订阅源地址变为
+CHOOSE_LANG: 选择语言
+SET_LANG_TO: 更改语言为
+LANG_USAGE: 使用方法：/lang 更改语言
+CHOOSE_UNSUB: 选择你想要退订的源
